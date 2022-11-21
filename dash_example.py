@@ -10,6 +10,7 @@ df_category_10 = pd.read_csv("df_category_10.csv",   index_col=None)
 #df_incident_day = pd.read_csv("df_incident_day.csv", index_col=None)
 
 app = Dash(external_stylesheets=[dbc.themes.MINTY])
+server = app.server
 
 
 
